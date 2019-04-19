@@ -1,6 +1,12 @@
 <?php
 $beerArray = [
 		[
+			'Brotbier',
+			'https://res.cloudinary.com/ratebeer/image/upload/w_250,c_limit/beer_533194.jpg',
+			'Bière écologique, faite à partir de pain, venant d\'une petite brasserie de stuttgart. C\'est une bière brune de 5°. Médaille d\'argent à l\'OktoberFest de Munich de 2018. Pour en savoir plus sur cette bière vous pouvez visiter le site de la brasserie : https://katuzny.github.io/sitebiere',
+			5.25
+		],
+		[
 			'La Chouffe Blonde D\'ardenne',
 			'https://www.beerwulf.com/globalassets/catalog/beerwulf/beers/la-chouffe-blonde-d-ardenne_opt.png?h=500&rev=899257661',
 			'Bière dorée légèrement trouble à mousse dense, avec un parfum épicé aux notes d’agrumes et de coriandre qui ressortent également au goût.',

@@ -1,13 +1,10 @@
 <?php
-require 'config.php';
-
-
-/* Connexion à une base MySQL avec l'invocation de pilote */
-$bdd = 'mysql:dbname='.$dbname.';host='.$dbhost.';charset=UTF8';
-
-
-try {
-    $pdo = new PDO($bdd, $dbuser, $dbpass);
-} catch (PDOException $e) {
-    echo 'Connexion échouée';
-}
+	require 'config.php';
+	
+	$dsn = 'mysql:dbname='.$dbname.';host='.$dbhost.';charset=UTF8';
+	
+	try {
+    $pdo = new PDO($dsn, $dbuser, $dbpass);
+	} catch (PDOException $e) {
+	    echo 'Connexion échouée : ' . $e->getMessage();
+	}
